@@ -5,6 +5,7 @@
   --border: 2px solid #ef4b8e;
   --box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.4);
   --body-color: #000;
+  --border-radius: 12px;
 }
 
 body {
@@ -23,4 +24,5 @@ p {
   color: var(--accent-color);
   border: var(--border);
   box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
 }
