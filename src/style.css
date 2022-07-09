@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #34b2ba;
+  --secondary-color: #cc801f;
+  --accent-color: #8250e9;
+  --border: 2px solid #ef4b8e;
+  --box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.4);
+  --body-color: #000;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h3 {
+  color: var(--secondary-color);
+}
+
+p {
+  color: var(--accent-color);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
